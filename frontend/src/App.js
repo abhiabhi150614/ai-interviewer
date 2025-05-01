@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Deepgram } from '@deepgram/sdk';
 
 const API_BASE_URL = 'https://ai-interviewer-hb48.onrender.com';
-const DEEPGRAM_API_KEY = 'eaf56bf31c5b51efb7e47707b7e6011217352cec'; // Replace with your Deepgram API key
+const DEEPGRAM_API_KEY = ''; // Replace with your Deepgram API key
 
 function App() {
   const [step, setStep] = useState('upload');
