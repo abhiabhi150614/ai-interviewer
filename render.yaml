@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-interviewer-backend
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: DEEPGRAM_API_KEY
+        sync: false
+      - key: NODE_ENV
+        value: production 
